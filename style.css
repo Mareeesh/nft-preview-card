@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200vh;
+  margin: 60px;
+}
+
+#container{
+   background-color:hsl(216, 50%, 16%) ;
+   padding: 20px;
+   border-radius: 20px; 
+   box-shadow: 30px 30px hsl(217, 54%, 11%), 60px 60px hsl(216, 50%, 16%);
+   margin:70px ;
+   max-width: 40%;
+}
+    /* box-shadow: 0px -25px 20px -20px hsl(216, 50%, 16%) ,
+    25px 0px 20px -20px hsl(216, 50%, 16%),
+    0px 25px 20px -20px hsl(216, 50%, 16%),
+    -25px 0px 20px -20px hsl(216, 50%, 16%);
+    } */
+
+#equilibrum{
+    max-width: 95%;
+    margin: 20px;
+    border-radius: 15px;
+   
+}
+
+h1{
+font-family:"Outfit", sans-serif; 
+font-weight: 600;
+color:hsl(0, 0%, 100%) ;
+padding: 20px;
+}
+
+p{
+    font-family:"Outfit", sans-serif; 
+    font-weight: 300; 
+    color:hsl(215, 51%, 70%);
+    font-size: 18px; 
+    line-height: 40px;
+  
+}
+
+a{
+    font-family:"Outfit", sans-serif; 
+    font-weight: 300; 
+    color:hsl(215, 51%, 70%) ;  
+}
+
+sup{
+    color:hsl(0, 0%, 100%) ;
+    font-family:"Outfit", sans-serif; 
+    font-weight: 300; 
+}
+
+#days{
+   display: contents;
+    justify-content: space-between;
+    width: 50%;
+   
+    
+    
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#avatar{
+    border: 2px solid hsl(0, 0%, 100%)  ;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+span{
+    margin-right: 220px;
+    color:hsl(178, 100%, 50%) ;
+    font-family:"Outfit", sans-serif; 
+    font-weight: 400;
+}
+
+sup{
+    color:hsl(215, 51%, 70%);  
+}
+
+#jules{
+    color:hsl(0, 0%, 100%) ;
+}
+
+@media(max-width:800px) {
+
+    body{
+
+    }
+    #container{
+        width: 50%;
+        padding: 0;
+        padding-left:30px;
+        border-radius: 20px;
+        box-shadow: 0;
+        min-width: 100%;
+    }
+    #equilibrum{
+        width: 70%;
+        margin-bottom: 20px;
+        border-radius: 10px; 
+    }
+
+#all{
+    padding: 50px;
+}
+
+span{
+    margin-right: 20px;
+}
+}
