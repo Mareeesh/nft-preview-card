@@ -11,8 +11,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 200vh;
-  margin: 60px;
+    min-height: 100vh;
+    margin: 60px;
 }
 
 #container{
@@ -33,7 +33,6 @@ body{
     max-width: 95%;
     margin: 20px;
     border-radius: 15px;
-   
 }
 
 h1{
