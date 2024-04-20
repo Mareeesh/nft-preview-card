@@ -19,7 +19,7 @@ body{
    padding: 20px;
    border-radius: 20px; 
    margin:40px ;
-   max-width: 40%;
+   width: 40%;
 }
     /* box-shadow: 0px -25px 20px -20px hsl(216, 50%, 16%) ,
     25px 0px 20px -20px hsl(216, 50%, 16%),
@@ -28,8 +28,7 @@ body{
     } */
 
 #equilibrum{
-    max-width: 95%;
-    margin: 20px;
+    width: 95%;
     border-radius: 15px;
 }
 
@@ -65,9 +64,6 @@ sup{
    display: contents;
     justify-content: space-between;
     width: 50%;
-   
-    
-    
 }
 hr{
     margin-top: 20px;
