@@ -34,7 +34,7 @@ p{
     width:300px;
     color:hsl(215, 51%, 70%);
     font-size: 18px; 
-    line-height: 40px;
+    line-height: 30px;
 }
 a{
     font-family:"Outfit", sans-serif; 
@@ -47,10 +47,10 @@ sup{
     font-weight: 300; 
 }
 #days{
-   display: contents;
+/*    display: contents;
     justify-content: space-between;
     width: 50%;
-}
+} */
 hr{
     margin-top: 20px;
     margin-bottom: 10px;
